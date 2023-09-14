@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  max-width: 1440px;
+  background-color: #f0f4f5;
+  /* overflow: hidden; */
+  margin: auto;
+}
+/* Stage1 navabar */
+.taskbar {
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 5%;
+  gap: 45rem;
+}
+.logo img {
+  width: 150px;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.menu ul a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: black;
+}
+/* Stage1 body  */
+.stethoscope img {
+  width: 615px;
+  position: absolute;
+  z-index: -1;
+  top: 90px;
+  right: 40%;
+}
+.left .top_an {
+  width: 25px;
+}
+.left h1 {
+  font-size: 70px;
+  width: 50%;
+}
+.left P {
+  color: #7c7c7c;
+  font-size: 18px;
+  margin: 20px 0;
+  width: 790px;
+}
+.left_button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+button {
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 40px;
+  background-color: #20bc7e;
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 300px;
+}
+.mouse_img {
+  width: 700px;
+  float: right;
+  margin-top: 70px;
+}
+.about_doctor {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* height: 85vh; */
+}
+.left {
+  margin: 70px 0 0 65px;
+}
+.green_box .yellow_box{
+  position: relative;
+  right: 0;
+}
+.green_box {
+  width: 35%;
+  /* border: 1px solid green; */
+  bottom: 30px;
+  float: right;
+  margin:-550px 0 0 500px;
+}
+
+.yellow_box {
+  width: 30%;
+  bottom: 50px;
+  float: right;
+  margin:-490px 0 0 500px;
+}
+
+.doctor_img{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 90%;
+  /* border: 1px solid red; */
+}
+.stage2{
+  margin-top: 100px;
+  width: 1440px;
+
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top h4{
+  color: #20BC7E;
+  font-weight: bold;
+  font-size: 2em;
+
+}
+.top p{
+  width: 50%;
+  text-align-last: center;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.sec{
+  width: 200px;
+  height: 100px;
+  /* border: 1px solid red; */
+  border-radius: 15px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.faculty_det{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 2rem;
+}
+.sec h1{
+  font-size: 25px;
+  font-weight: 700;
+  color: #20bc7e;
+}
+.sec p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.main{
+  margin: 15% ;
+}
+
+/* Stage3 css */
+.stage3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 85vh;
+}
+form{
+  width: 350px;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+form h1{
+  text-align: center;
+}
+
+form div{
+  display: flex;
+  flex-direction: column;
+}
+
+form div label{
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+form div input{
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+form div textarea{
+  resize: none;
+  height: 100px;
+  border: transparent;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+form button{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid rebeccapurple; */
+  border: transparent;
+  border-radius: 10px;
+  background: #20BC7E;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 50%;
+  cursor: pointer;
+}
